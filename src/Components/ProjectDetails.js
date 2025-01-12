@@ -92,14 +92,8 @@ const ProjectDetails = ({ navigate }) => {
 
                 </Grid>
             </Grid>
-
-
             <Grid container spacing={4}>
                 <Grid item xs={12} sm={8}>
-
-
-
-
                     {projectDetails.timeline && (
                         <Section>
                             <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
