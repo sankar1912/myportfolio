@@ -71,16 +71,16 @@ const OtherActivities = () => {
                                             }}
                                         >
                                             <Typography variant="body1" sx={{ fontWeight: 'bolder' }}>
-                                                {details[0]} {/* Field Title */}
+                                                {details[0]} 
                                             </Typography>
                                             <Typography variant="body2" color="text.primary">
-                                                Description: {details[1]} {/* Field Description */}
+                                                Description: {details[1]}
                                             </Typography>
                                             <Typography variant="body2" color="text.secondary">
-                                                Result: {details[2]} {/* Field Result */}
+                                                Result: {details[2]} 
                                             </Typography>
                                             <Typography variant="body2" color="text.secondary">
-                                                Result: {details[3  ]} {/* Field Result */}
+                                                Date: {details[3]} 
                                             </Typography>
                                         </Section>
                                     ))

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Paper, Box, Grid, styled, Typography, Divider, Button, IconButton } from '@mui/material';
 import { getFirestore, collection, getDocs } from 'firebase/firestore';
 import fsdb from '../firebase';
-import DownloadIcon from '@mui/icons-material/Download'; // Import download icon from MUI
+import DownloadIcon from '@mui/icons-material/Download'; 
 
 const Certifications = () => {
     const [certifications, setCertifications] = useState({});
@@ -19,10 +19,9 @@ const Certifications = () => {
         },
     }));
 
-    // Function to fetch certifications from Firestore
     const fetchCertifications = async () => {
         try {
-            const certCollection = collection(fsdb, 'certificates'); // Replace 'certifications' with your collection name
+            const certCollection = collection(fsdb, 'certificates');
             const certSnapshot = await getDocs(certCollection);
 
             let data = {};
@@ -71,13 +70,13 @@ const Certifications = () => {
                                                     sx={{ textAlign: 'left' }}
                                                 >
                                                     <Typography variant="body1" sx={{ fontWeight: 'bolder' }}>
-                                                        {details[0]} {/* Course Title */}
+                                                        {details[0]} 
                                                     </Typography>
                                                     <Typography variant="body2" color="text.primary">
                                                         Completion Date: {details[1]} {/* Date */}
                                                     </Typography>
                                                     <Typography variant="body2" color="text.secondary">
-                                                        {details[2]} {/* Description */}
+                                                        {details[2]}
                                                     </Typography>
                                                     {/* Download Button */}
                                                     {details[3] && (
