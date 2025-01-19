@@ -97,7 +97,7 @@ const ProjectDetails = ({ navigate }) => {
                     {projectDetails.timeline && (
                         <Section>
                             <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-                                Project TimeLine
+                                Project Timeline
                             </Typography>
                             <Typography variant="body1" color="text.secondary" sx={{ marginTop: 1 }}>
                                 {projectDetails.timeline}

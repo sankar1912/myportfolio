@@ -234,7 +234,7 @@ const MyProfile = ({ navigate }) => {
             padding: '10px 10px',
           }}
         >
-          My TimeLine
+          My Timeline
         </Button>
         <Typography variant="body1" color="text.primary" gutterBottom>
         View My Projects
@@ -256,9 +256,7 @@ const MyProfile = ({ navigate }) => {
     </Box>
   </Section>
 </Grid>
-
-
-            </Grid>
+ </Grid>
 
 
 

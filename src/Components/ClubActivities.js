@@ -87,13 +87,12 @@ const ClubActivities = () => {
                     </Section>
                 </Grid>
 
-                {/* Left Section: Activity Names */}
                 <Grid item xs={12} sm={4}>
                     <Section>
                         <Typography variant="h6" sx={{ fontWeight: 'bold', marginBottom: 2 }}>
                            Clubs
                         </Typography>
-                        <Divider sx={{ marginBottom: 2 }} />
+                        <Divider sx={{ marginBottom:2}} />
                         <ul style={{ paddingLeft: '20px', lineHeight: 2, textAlign: 'left' }}>
                             {Object.keys(activities).map((activity, index) => (
                                 <li key={index} style={{ fontWeight: 'bold' }}>
