@@ -20,13 +20,13 @@ const MyProfile = ({ navigate }) => {
         },
     }));
 
-    const Section = styled(Paper)(({ theme }) => ({
-        padding: theme.spacing(3),
-        marginBottom: theme.spacing(3),
-        [theme.breakpoints.down("sm")]: {
-            padding: theme.spacing(2),
-        },
-    }));
+        const Section = styled(Paper)(  ({ theme }) => ({
+            padding: theme.spacing(3),
+            marginBottom: theme.spacing(3),
+            [theme.breakpoints.down("sm")]: {
+                padding: theme.spacing(2),
+            },
+        }));
 
     const Label = styled(Typography)({
         fontWeight: "bolder",
