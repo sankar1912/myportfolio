@@ -7,7 +7,7 @@ import DashBoard from './Components/DashBoard';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/myportfolio">
         <Routes>
           <Route path='/' element={<DashBoard />}/>
         </Routes>
